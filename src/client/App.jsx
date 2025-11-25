@@ -12,7 +12,7 @@ import styles from './app.module.scss';
 
 const isServer = typeof window === 'undefined';
 
-ReactGA.initialize('298742057');
+ReactGA.initialize('13047583318');
 
 const App = () => {
   if (!isServer) {
