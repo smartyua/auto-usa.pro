@@ -116,14 +116,14 @@ export const renderApp = async req => {
   const isServer = typeof window === 'undefined';
 
   const googleBlock = isServer
-    ? `<script async src="https://www.googletagmanager.com/gtag/js?id=G-QT8BQZJF1R" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-87HM69C51Y"></script>
+    ? `<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZP5HGJHX5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-87HM69C51Y');
+
+  gtag('config', 'G-ZZP5HGJHX5');
 </script>`
     : '';
 
